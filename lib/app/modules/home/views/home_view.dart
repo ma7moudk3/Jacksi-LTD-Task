@@ -1,6 +1,9 @@
+import 'dart:developer';
+
 import 'package:jacksi_task/app/constants/exports.dart';
 
 import '../../../../generated/locales.g.dart';
+import '../../../routes/app_pages.dart';
 import '../controllers/home_controller.dart';
 
 class HomeView extends GetView<HomeController> {
@@ -17,7 +20,7 @@ class HomeView extends GetView<HomeController> {
             LocaleKeys.products.tr,
             color: HexColor.fromHex("#3E3E68"),
             fontWeight: FontWeightManager.semiBold,
-            fontSize: 20,
+            fontSize: 18,
           ),
           actions: [
             Container(
@@ -33,7 +36,8 @@ class HomeView extends GetView<HomeController> {
                   )),
               child: IconButton(
                 onPressed: () {
-                  //Get.toNamed(Routes.CART);
+                  log("add product");
+                  Get.toNamed(Routes.ADD_PRODUCT);
                 },
                 icon: Icon(
                   Icons.add,

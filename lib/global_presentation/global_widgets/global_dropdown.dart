@@ -88,8 +88,8 @@ class _PrimaryDropDownState extends State<PrimaryDropDown> {
           style: TextStyle(color: ColorManager.primary),
           hint: PrimaryText(
             widget.hint,
-            color: ColorManager.fontColor,
-            fontSize: 20,
+            color: ColorManager.grey,
+            fontSize: 13,
           ),
           value: dropDownValue,
           borderRadius: BorderRadius.circular(8),

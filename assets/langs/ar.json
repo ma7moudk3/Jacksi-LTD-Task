@@ -3,5 +3,12 @@
     "categories":"التصنيفات",
     "showAll":"عرض الكل",
     "changeToHorizontal":"تغيير عرض المنتجات الى أفقي",
-    "changeToVertical":"تغيير عرض المنتجات الى عمودي"
+    "changeToVertical":"تغيير عرض المنتجات الى عمودي",
+    "productImages":"صور المنتج",
+    "pressToAddImages":"اضغط لاضافة الصور",
+    "productName":"اسم المنتج",
+    "storeName":"اسم المتجر",
+    "price":"السعر",
+    "category":"التصنيف",
+    "addAProduct":"اضافة منتج"
 }

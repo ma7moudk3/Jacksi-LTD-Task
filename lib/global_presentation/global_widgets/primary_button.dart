@@ -33,7 +33,7 @@ class PrimaryButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       width: width ?? Get.width,
-      height: height ?? 50.h,
+      height: height ?? 60.h,
       child: Theme(
         data: Theme.of(context).copyWith(
           highlightColor: ColorManager.transparent,
@@ -52,7 +52,7 @@ class PrimaryButton extends StatelessWidget {
                 ? ColorManager.fontColor6.withOpacity(0.4)
                 : (color ?? (ColorManager.primary)),
             shape: RoundedRectangleBorder(
-              borderRadius: borderRadius ?? BorderRadius.circular(15.r),
+              borderRadius: borderRadius ?? BorderRadius.circular(12.r),
               side: isDisabled
                   ? BorderSide.none
                   : (borderSide ??

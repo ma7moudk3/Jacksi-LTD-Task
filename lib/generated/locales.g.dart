@@ -16,6 +16,13 @@ class LocaleKeys {
   static const showAll = 'showAll';
   static const changeToHorizontal = 'changeToHorizontal';
   static const changeToVertical = 'changeToVertical';
+  static const productImages = 'productImages';
+  static const pressToAddImages = 'pressToAddImages';
+  static const productName = 'productName';
+  static const storeName = 'storeName';
+  static const price = 'price';
+  static const category = 'category';
+  static const addAProduct = 'addAProduct';
 }
 
 class Locales {
@@ -25,6 +32,13 @@ class Locales {
     'showAll': 'عرض الكل',
     'changeToHorizontal': 'تغيير عرض المنتجات الى أفقي',
     'changeToVertical': 'تغيير عرض المنتجات الى عمودي',
+    'productImages': 'صور المنتج',
+    'pressToAddImages': 'اضغط لاضافة الصور',
+    'productName': 'اسم المنتج',
+    'storeName': 'اسم المتجر',
+    'price': 'السعر',
+    'category': 'التصنيف',
+    'addAProduct': 'اضافة منتج',
   };
   static const en = {
     'products': 'Products',
