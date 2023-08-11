@@ -13,6 +13,7 @@ dependencies:
   flutter_screenutil: ^5.8.4
   flutter_svg: ^2.0.7
   dio: ^5.3.2
+  google_fonts: ^5.1.0
 
 dev_dependencies: 
   flutter_lints: ^2.0.0
@@ -21,4 +22,24 @@ dev_dependencies:
 
 flutter: 
   uses-material-design: true
+  assets: 
+    - assets/images/
+    - assets/fonts/
 
+  fonts:
+  - family: Montserrat-Arabic
+    fonts:
+      - asset: assets/fonts/ArbFONTS-Montserrat-Arabic-Black.ttf
+        weight: 900
+      - asset: assets/fonts/ArbFONTS-Montserrat-Arabic-ExtraBold.ttf
+        weight: 800
+      - asset: assets/fonts/ArbFONTS-Montserrat-Arabic-Bold.ttf
+        weight: 700
+      - asset: assets/fonts/ArbFONTS-Montserrat-Arabic-SemiBold.ttf
+        weight: 600
+      - asset: assets/fonts/ArbFONTS-Montserrat-Arabic-Regular.ttf
+        weight: 500
+      - asset: assets/fonts/ArbFONTS-Montserrat-Arabic-Regular.ttf
+        weight: 400
+      - asset: assets/fonts/ArbFONTS-Montserrat-Arabic-Light.ttf
+        weight: 300

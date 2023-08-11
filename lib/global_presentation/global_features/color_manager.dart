@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 class ColorManager {
   ColorManager._();
 
-  static Color primary = HexColor.fromHex("#E51E24");
-  static Color accent = HexColor.fromHex("#000000");
+  static Color primary = HexColor.fromHex("#3EB86F");
+  static Color accent = HexColor.fromHex("#F9F9F9");
   static Color greenIcon = HexColor.fromHex("#23B180");
   static Color greenButton = HexColor.fromHex("#03C988");
   static Color blueIcon = HexColor.fromHex("#6081C4");
@@ -48,7 +48,7 @@ class ColorManager {
   static Color white = HexColor.fromHex("#FFFFFF");
   static Color transparent = Colors.transparent;
   static Color error = HexColor.fromHex("#E94125");
-  static Color grey = HexColor.fromHex("#7A7A7A");
+  static Color grey = HexColor.fromHex("#ECECEC");
   static Color greyC1 = HexColor.fromHex("#C1C0C0");
   static Color grey2 = HexColor.fromHex("#696969");
   static Color grey3 = HexColor.fromHex('#4D4D4D');

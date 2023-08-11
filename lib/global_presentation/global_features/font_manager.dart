@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class FontConstants {
-  static const String englishFontFamily = "Poppins";
-  static const String arabicFontFamily = "SomarSans";
+  static const String englishFontFamily = "Montserrat-Arabic";
+  static const String arabicFontFamily = "Montserrat-Arabic";
   static const String digitalFontFamily = "IONB";
 }
 

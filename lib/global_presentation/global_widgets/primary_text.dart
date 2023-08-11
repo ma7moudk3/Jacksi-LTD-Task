@@ -1,5 +1,6 @@
 // ignore_for_file: must_be_immutable
 
+import 'package:google_fonts/google_fonts.dart';
 import 'package:jacksi_task/app/constants/exports.dart';
 
 import '../../app/core/helper_functions.dart';
@@ -50,9 +51,7 @@ class PrimaryText extends StatelessWidget {
       letterSpacing: letterSpacing,
       height: height,
       fontFamily: fontFamily ??
-          (detectLang(text: text.tr)
-              ? FontConstants.englishFontFamily
-              : FontConstants.arabicFontFamily),
+          FontConstants.arabicFontFamily,
       decoration: lineThrow
           ? TextDecoration.lineThrough
           : underLine
@@ -66,10 +65,10 @@ class PrimaryText extends StatelessWidget {
         padding: const EdgeInsets.all(10),
         margin: const EdgeInsets.all(16),
         showDuration: const Duration(milliseconds: 5500),
-        textStyle: style.copyWith(
-          color: Colors.white,
-          fontSize: 14.sp,
-          fontWeight: FontWeightManager.regular,
+        textStyle: GoogleFonts.montserrat(
+          color: color ?? ColorManager.fontColor,
+          fontSize: 12.sp,
+          fontWeight: FontWeightManager.medium,
         ),
         preferBelow: true,
         textAlign: detectLang(
